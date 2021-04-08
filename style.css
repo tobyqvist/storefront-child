@@ -11,3 +11,45 @@
  Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
  Text Domain:  twentyfifteenchild
 */
+
+body {
+  font-family: Helvetica, sans-serif;
+  background-color: #a7c8cf;
+}
+
+span.onsale {
+  color: white;
+  background-color: #082126;
+}
+nav.woocommerce-breadcrumb {
+  color: #bf7868;
+}
+
+button.single_add_to_cart_button.button.alt {
+  color: #333333;
+  background-color: #eeeeee;
+}
+span.woocommerce-Price-currencySymbol {
+  color: #bf7868;
+}
+span.woocommerce-Price-amount.amount {
+  color: #bf7868;
+}
+span.count {
+  color: #bf7868;
+}
+a.cart-contents::after {
+  color: #bf7868;
+}
+section.storefront-product-section.storefront-popular-products {
+  display: none;
+}
+section.storefront-product-section.storefront-best-selling-products {
+  display: none;
+}
+p.woocommerce-noreviews {
+  background-color: #4e96a6;
+}
+div.wp-block-cover.alignfull.has-background-dim::before {
+  background-color: #bf7868;
+}
