@@ -41,15 +41,22 @@ span.count {
 a.cart-contents::after {
   color: #bf7868;
 }
+p.woocommerce-noreviews {
+  background-color: #4e96a6;
+}
+div.wp-block-cover.alignfull.has-background-dim::before {
+  background-color: #bf7868;
+}
+
 section.storefront-product-section.storefront-popular-products {
   display: none;
 }
 section.storefront-product-section.storefront-best-selling-products {
   display: none;
 }
-p.woocommerce-noreviews {
-  background-color: #4e96a6;
+input#woocommerce-product-search-field-0.search-field {
+  display: none;
 }
-div.wp-block-cover.alignfull.has-background-dim::before {
-  background-color: #bf7868;
+form.woocommerce-product-search::before {
+  display: none;
 }
